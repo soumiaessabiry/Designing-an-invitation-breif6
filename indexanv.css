@@ -25,6 +25,8 @@ nav{
     height: 100px;
     padding: 0 20px;
     outline: 0px;
+    margin-left: 0px;
+    margin-right: 0px
 }
 label.logo{
     font-size: 30px;
@@ -32,6 +34,10 @@ label.logo{
     color: black;
     padding:0px 90px;
     line-height: 30px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
     
 }
 nav ul{
@@ -158,7 +164,9 @@ background-color: yellowgreen ;
     padding-bottom: 20px ;
     height: 618px;
     width: 1662px;
-
+    margin-top: 20px;
+    border-bottom-width: 20px;
+    margin-bottom: 24px;
 }
 .d3get-conter{
 
@@ -178,6 +186,8 @@ background-color: yellowgreen ;
     border-radius: 100%;
     background: linear-gradient(to right,#f08e55,#A831A5);
     border:none ;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   #argent{
       background-color: yellow;
@@ -217,11 +227,22 @@ background-color: yellowgreen ;
     color: black;
     line-height:8px;
     font-size: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    width: 393px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 .d3get-conter p, h2 {
    padding: 20px 0;
     font-size: 14px;
+    
+    margin-left: 31px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
 }
 
 .d3get-conter input{
@@ -229,7 +250,7 @@ background-color: yellowgreen ;
     margin: 30px  auto;
 }
 
-/*************************************************************our backound 2************************************************************/
+/************************************************************* pour backound 2************************************************************/
 .d4b2{
  
     background-color: black;
@@ -508,190 +529,275 @@ height: 200px;
     line-height: 36px;
    
 }
+/*********************************************************** responsive*****************************************/
+@media (max-width :760px) {
 
-@media only screen and (min-width: 700px) and (max-width: 1000px) {
-
-    .dbd1{
-        display: none;
+    body{
+     width: 426px;
+    margin-left: 0px;
+/**************************** header***********************************/
     }
+    .logo{
+        margin-right: 100px;
+        background-color: aqua;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        padding-left: 52px;
+        padding-right: 45px;
+        
 
-    .dad1 {
-        width: 100%;
-        line-height: 50px;
+
+
     }
+    nav{
 
-    .d2company {
-        width: 100%;
-        flex-wrap: wrap;
-        display: flex;
-        height: auto;
-        padding: 40px;
-        margin: 0;
-       
-    }
-
-    .d2company img{
-        width: 20%;
-        height: 30px;
-        margin: 10px 10px ;
-    }
-
-    .d3get{
-        width: 100%;
-        height: auto;
-        margin: 70px 0;
-        display: flex;
-        align-items: center;
-       
-    }
-
+    flex-direction: column;
+    margin-left: 0px;
+    margin-bottom: 20px;
     
-    .d3get-left , .d3get-right{
-        width: 70%;
-        height: 600px;
-        flex-direction: column;
-    }
-
-    .d3get-left img , .d3get-right img{
-        width: 100%;
-        height: 100%;
-    }
+    width: 279px;
 
 
-    .d3get-conter{
-        width: 90%;
-        height: 100%;
-    }
-
-    .d3get-conter h2{
-        text-align: center;
-        margin: 50px 0;
-    }
-    .d3get-conter p{
-        margin: 20px 0;
-        font-size: 20px;
-    }
-
-    .d3get-conter input{
-        display: block;
-        margin: 30px  auto;
-    }
-
-
-}
-
-@media only screen and (max-width: 700px){
-    .label.logo{
-        padding-left: 0px;
-        margin-left: 0px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-    
-    
-    nav ul{
-
-        margin: 30px 160px ;
-    }
-
-    .dad1 .sel1b1 {
-        width: 70%;
-        height: 40px;
-        color: grey;
-        border-radius: 5px;
     }
     .btn{
+        
+    margin-left: 28px;
     padding-left: 0px;
     padding-right: 0px;
     }
-
-
-    .d1b1 {
-        height: auto;
-        padding: 20px;
-        border: none;
-        width: 362px;
-        margin-top: 24px;
-        margin-bottom: 25px;
-       width: 323px;
-
+    .log_in{
+        margin-bottom: 15px;
     }
-    .dbd1{
+/************************ backround1************************************/
+    .d1b1{
+        margin-right: 0px;
+        padding-bottom: 77px;
+        padding-left: 0px;
+        margin-top: 17px;
+        width: 382px;
+        margin-left: 2px;
+        height: 298px;
+        padding-bottom: 66px;
+        margin-left: 2px;
+        height: 356px;
+        padding-top: 26px;
+    }
+    .imgh{
         display: none;
     }
-
-    .dad1 {
-        width: 100%;
-        line-height: 50px;
+    .dad1{
+        width: 174.359;
+        height: 77px;
     }
 
-    .d2company {
-        width: 100%;
-        flex-wrap: wrap;
-        display: flex;
-        height: auto;
-        padding: 20px;
-        margin: 0;
+    .dad1 h1{
+    width: 308px;
+    margin-left: 0px;
+    } 
+    .HN1{   
+    margin-left: 0px;
+    width: 339px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 25px;
     }
+    .HN2{
+    width: 320px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+        }
+     .dad1 .sel1b1{
+    width: 252px;
+    padding-left: 49px;
+    margin-left: 58px;
+    margin-right: 58px;
 
-    .d2company img{
-        width: 25%;
-        height: 30px;
-        margin: 10px 160px;
+       } 
+       .dad1 .sub1b1{
+        margin-left: 95px;
+        width: 152px;
+       }
+/**********************image company ************************/
+       .d2company{
+           flex-wrap: wrap;
+           justify-content: baseline;
+           width: 150px;
+           margin-bottom: 359px;
+       }
+       .imc{
+        width: 188px;
+       }
+       .d3get{
+    flex-direction: column;
+    margin-left: 0px;
+    width: 347px;
+    height: 485px;
+    padding-top: 0px;
+    margin-top: 10px;
 
-    }
+
+       }
+       .d3get .d3get-leftim{
+        width: 369px;
+        height: 408px;
+         margin-right: 29px;
+        margin-left: 0px;
+         padding-left: 0px;
+        width: 339px;
+
+       }
+       .d3get .d3get-conter{
+        
     
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+     padding-bottom: 0px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    width: 394px;
 
+        }
+        .d3get-conter h2{
+       
+    margin-top: 0px;     
+    margin-bottom: 11px;
+    margin-top: 20px;
+
+        }
+      
+    .d4b2{ 
+    margin-top: 412px;
+
+    }
+ 
+  .d3get .d3get-rightim{
+        width: 369px;
+        height: 408px;
+         margin-right: 29px;
+        margin-left: 0px;
+         padding-left: 0px;
+        width: 339px;
+
+  }     
+  /***********************backround 2**************************/   
+    .d4b2{
+        margin-top: 911px;    
+        margin-left: 30px;
+        width: 475px;
+         height: 313px;
+       }
+       .dad4{
+        width: 432px;
+        padding-left: 0px; 
+       }
+    .dbd4 img{
+       display: none ;
+           }
+           .dbd4 img{
+       display: none ;
+           }
+    .dbd4 {
+      display: none ;
+                }      
+    .dad4 h1{
+        width: 415px;
+        margin-left: 0px;    
+        height: 73px;
+        font-size: x-large;
+
+       }
+    .dad4 h2{
+      font-size: unset;
+      width: 421px;
+      margin-left: 0px;
+
+       }
+    .dad4 .sub3b2{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 39px;
+    width: 280px;
+    height: 48px;
+       }
+    .CHECK_MARK_2{    
+    width: 0px;
+    height: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: medium;
+       }
+    .dad4 .sub2b2{
+    margin-left: 98px;
+    width: 138px;
+    height: 42px;
+    margin-top: 0px;
+      }
+
+/*************************** image grid******************************/
+
+.gallery{
+display: flex;
+flex-direction: column;
+margin-top: 12px;
+align-content: stretch;
+width: 501px;
+margin-right: 18px;
+width: 443px;
+margin-left: 20px;
+gap: 2px;
+
+}
+.grid2{
+    height: 383px;
+    width: 289px;
+    margin-left: 65px;
+}
+.grid7{
+    margin-left: 61px;
+    height: 263px;
+    width: 288px;
+}
+/***********************************footer************************************/
+.foter{ 
+    margin-left: 0px;
+    height: 536px;
+    flex-direction:column;
+
+}
+.d5fh h5{
+    width: 148px;
+    margin-left: 17px;
+    height: 329px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    font-size: revert;
+   
+}
+.d5fl .l1{
     
-    .d3get{
-        width: 100%;
-        height: auto;
-        margin: 100px 0;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+    width: 75px;
+    padding-left: 0px;
+    margin-left: 13px;
 
-    
-    .d3get-left , .d3get-right{
-        width: 100%;
-        height: 600px;
-    }
-
-    .d3get-left img , .d3get-right img{
-        width: 100%;
-        height: 100%;
-    }
-
-
-    .d3get-conter{
-        width: 100%;
-        height: 100%;
-    }
-
-    .d3get-conter h2{
-        text-align: center;
-        margin: 50px 0;
-    }
-    .d3get-conter p{
-        margin: 20px 0;
-        font-size: 20px;
-    }
-
-    .d3get-conter input{
-        display: block;
-        margin: 30px  auto;
-    
-    
-    
-    }
-
-
-
+}
+.d5fh {
+    margin-right: 0px;
 
 
 }
 
 
 
+
+
+}
 
